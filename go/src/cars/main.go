@@ -46,7 +46,7 @@ func main() {
 	builder := SQLBuilder{}
 
 	// Establishing a connection to the database
-	dsn := "root:Slavil1991@tcp(127.0.0.1:3306)/cars"
+	dsn := "root:SM@tcp(127.0.0.1:3306)/cars"
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		log.Fatal(err)
